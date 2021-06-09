@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <?php $title = 'Crear Cuestionario'; ?>
     <?php $currentPage = 'crearCuestionario'; ?>
     <?php include('head.php'); ?>
@@ -26,7 +27,7 @@ error_reporting(E_ALL ^ E_NOTICE);
         
         
     }
-    
+
 ?>
 <?php
     
@@ -129,10 +130,10 @@ error_reporting(E_ALL ^ E_NOTICE);
         <div class="form-group col-12 col-lg-6">
     <table id="tablaUsuarios" class="table-striped table-bordered" style="width:100%">
                 <thead class="text-center">
-                    <th>Codigo Encuesta</th>
-                    <th>Asignatura </th>
-                    <th>Sección</th>
-                    <th>Responsable</th>                    
+                    <th:id>Codigo Encuesta</th>
+                    <th:id>Asignatura </th>
+                    <th:id>Sección</th>
+                    <th:id>Responsable</th>                    
                 </thead>
                 <tbody>
                     <?php
@@ -163,4 +164,6 @@ error_reporting(E_ALL ^ E_NOTICE);
     </div>
 
     </body>
+</html>
+
 </html>
