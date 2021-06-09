@@ -132,6 +132,12 @@ error_reporting(E_ALL ^ E_NOTICE);
 
         </div>
         <div class="form-group col-12 col-lg-6">
+
+<table>
+  <tr>
+    <th id="tablaUsuarios" class="table-striped table-bordered" style="width:100%"</th>
+  </tr>
+</table>
     <table> id="tablaUsuarios" class="table-striped table-bordered" style="width:100%"</table>
                 <thead class="text-center">
                     <th:id>Codigo Encuesta</th>
