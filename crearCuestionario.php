@@ -133,7 +133,7 @@ error_reporting(E_ALL ^ E_NOTICE);
         </div>
         <div class="form-group col-12 col-lg-6">
 
-<table border="1">
+<table class="default">
   <tr>
     <th id="tablaUsuarios" class="table-striped table-bordered" style="width:100%"</th>
   </tr>
