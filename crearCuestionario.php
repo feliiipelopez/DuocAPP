@@ -1,4 +1,3 @@
-<!DOCTYPE>
 <html>
     <?php $title = 'Crear Cuestionario'; ?>
     <?php $currentPage = 'crearCuestionario'; ?>
